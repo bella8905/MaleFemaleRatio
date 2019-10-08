@@ -93,4 +93,3 @@ ws.conditional_formatting.add("A1:E{0}".format(len(ws['A'])), rule)
 
 wb.save(filename=out_file)
 
-print(float("1.2a"))
